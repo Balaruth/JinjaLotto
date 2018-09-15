@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lottery Numbers</title>
+</head>
+<body>
+  <h2>Your lottery numbers are:</h2>
+  <ul>
+    {% for number in lottery_numbers %}
+    <li> {{number}} </li>
+    {% endfor %}
+  </ul>
+
+</body>
+</html>
